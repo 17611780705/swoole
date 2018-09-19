@@ -1,0 +1,70 @@
+---------------------------------------------------------------
+[ 2018-09-07T17:55:21+08:00 ] 127.0.0.1 GET /api/v1/time
+[ error ] [0]致命错误: Call to undefined method app\lib\exception\SignException::goCheck()
+[ error ] Fatal error: Call to undefined method app\lib\exception\SignException::goCheck()
+---------------------------------------------------------------
+[ 2018-09-07T21:33:36+08:00 ] 127.0.0.1 GET /api/v1/test?id=1
+[ info ] tp5.cn/api/v1/test?id=1 [运行时间：0.109000s][吞吐率：9.17req/s] [内存消耗：3,142.22kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-09-07T21:33:47+08:00 ] 127.0.0.1 GET /api/v1/test?id=1
+[ info ] tp5.cn/api/v1/test?id=1 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：3,142.22kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-07T21:34:07+08:00 ] 127.0.0.1 GET /api/v1/test?id=1
+[ info ] tp5.cn/api/v1/test?id=1 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：3,142.22kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-07T21:34:46+08:00 ] 127.0.0.1 GET /api/v1/test?id=1
+[ info ] tp5.cn/api/v1/test?id=1 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：3,142.22kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-07T21:37:05+08:00 ] 127.0.0.1 GET /api/v1/test?id=1
+[ info ] tp5.cn/api/v1/test?id=1 [运行时间：5.601000s][吞吐率：0.18req/s] [内存消耗：3,144.02kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-07T21:37:34+08:00 ] 127.0.0.1 GET /api/v1/test?id=1
+[ info ] tp5.cn/api/v1/test?id=1 [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：3,141.83kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000000s ]

@@ -1,0 +1,163 @@
+---------------------------------------------------------------
+[ 2018-09-03T10:54:22+08:00 ] 0.0.0.0 GET /websocket/public/tes
+[ info ] localhost/websocket/public/tes [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：2,464.94kb] [文件加载：36]
+[ error ] module not exists:tes
+---------------------------------------------------------------
+[ 2018-09-03T10:57:08+08:00 ] 0.0.0.0 GET /websocket/public/tes
+[ info ] localhost/websocket/public/tes [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：2,464.93kb] [文件加载：36]
+[ error ] module not exists:tes
+---------------------------------------------------------------
+[ 2018-09-03T11:55:17+08:00 ] 0.0.0.0 GET /websocket/public/test?id=1
+[ info ] localhost/websocket/public/test?id=1 [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,562.88kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T11:55:24+08:00 ] 0.0.0.0 GET /websocket/public/test?id=0.1
+[ info ] localhost/websocket/public/test?id=0.1 [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：2,562.88kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T11:56:17+08:00 ] 0.0.0.0 GET /websocket/public/test?id=0.1
+[ info ] localhost/websocket/public/test?id=0.1 [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：2,562.97kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T11:56:19+08:00 ] 0.0.0.0 GET /websocket/public/test?id=0.1
+[ info ] localhost/websocket/public/test?id=0.1 [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：2,562.97kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T12:21:57+08:00 ] 0.0.0.0 GET /websocket/public/test?id=0.1
+[ info ] localhost/websocket/public/test?id=0.1 [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,562.45kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:41:10+08:00 ] 0.0.0.0 GET /websocket/public/test?id=0.1
+[ info ] localhost/websocket/public/test?id=0.1 [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,562.78kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:42:05+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,560.63kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:42:17+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：2,560.37kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:43:18+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：2,560.37kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:44:35+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,561.22kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:44:47+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,540.56kb] [文件加载：40]
+[ error ] [8]Array to string conversion[E:\wamp64\www\websocket\application\api\validate\BaseValidate.php:21]
+[ error ] Array to string conversion
+---------------------------------------------------------------
+[ 2018-09-03T13:45:01+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：2,617.68kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:46:13+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：2,561.89kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:46:46+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：2,561.38kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:47:13+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,561.24kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:26]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:47:44+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：2,561.23kb] [文件加载：42]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:24]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:51:25+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：2,618.63kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:24]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:51:38+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：2,618.63kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:25]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:51:43+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：2,618.63kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:25]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T13:52:00+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：2,618.63kb] [文件加载：43]
+[ error ] [8]未定义数组索引: code[E:\wamp64\www\websocket\application\lib\exception\BaseException.php:25]
+[ error ] Undefined index: code
+---------------------------------------------------------------
+[ 2018-09-03T14:18:17+08:00 ] 0.0.0.0 GET /websocket/public/test?id=dd
+[ info ] localhost/websocket/public/test?id=dd [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,474.50kb] [文件加载：37]
+[ error ] module not exists:test
+---------------------------------------------------------------
+[ 2018-09-03T14:19:34+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=dd
+[ info ] localhost/websocket/public/api/v1/test?id=dd [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,484.84kb] [文件加载：38]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2018-09-03T14:49:13+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.503029s][吞吐率：1.99req/s] [内存消耗：2,924.14kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T14:49:37+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,925.20kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T14:50:54+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,925.07kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T14:50:55+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,925.07kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T14:50:55+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,925.07kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T14:50:55+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,925.07kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T14:51:23+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,925.07kb] [文件加载：44]
+[ error ] [0]variable type error： array[E:\wamp64\www\websocket\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2018-09-03T15:05:50+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test1?id=1
+[ info ] localhost/websocket/public/api/v1/test1?id=1 [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：2,486.60kb] [文件加载：38]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2018-09-03T15:42:33+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test1?id=1
+[ info ] localhost/websocket/public/api/v1/test1?id=1 [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：2,481.05kb] [文件加载：37]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2018-09-03T16:11:25+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ error ] [0]variable type error： array
+[ error ] variable type error： array

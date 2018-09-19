@@ -1,0 +1,73 @@
+---------------------------------------------------------------
+[ 2018-09-04T14:22:24+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：4,476.09kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:21:17+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.113007s][吞吐率：8.85req/s] [内存消耗：4,647.51kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:21:53+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：4,647.08kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:25:10+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：4,648.21kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:25:10+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：4,648.21kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:25:11+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：4,648.21kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:25:11+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：4,648.21kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:41:17+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：4,651.20kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-04T17:41:29+08:00 ] 0.0.0.0 GET /websocket/public/api/v1/test?id=1
+[ info ] localhost/websocket/public/api/v1/test?id=1 [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：4,874.02kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=zsql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3) [ RunTime:0.014001s ]
