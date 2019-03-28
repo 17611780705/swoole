@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-// [ 应用入口文件 ]
+// [ 应用入口文件 ] st.simengphp.cn
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
