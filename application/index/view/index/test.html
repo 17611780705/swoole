@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>$Title$</title>
+	<title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
+<script>
+	var websocket = new WebSocket('ws://127.0.0.1:2000')
+	websocket.onopen = function () {
+		console.log('连接')
+		websocket.send('test')
+    }
+    websocket.onerror = function () {
+	    console.log('出错了')
+    }
+    websocket.onclose = function () {
+	    console.log('关闭')
+    }
+    websocket.onmessage = function(e) {
+        alert("收到服务端的消息：" + e.data);
+    };
+</script>
 </html>
